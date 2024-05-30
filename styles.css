@@ -21,13 +21,35 @@ nav a {
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-box {
+    background-color: #cce7ff;
+}
+
+.intro-box {
+    background-color: #b3e5fc;
+}
+
 h1, h2 {
-    color: white;
+    color: #007BFF;
 }

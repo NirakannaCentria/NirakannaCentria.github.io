@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('C:\Users\akaen\OneDrive\Dokument\Mywebpage\stonesonthebeach.jpg') no-repeat center center fixed;
+    background-image: url(stonesonthebeach.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
     background-size: cover;
     color: #333;
     margin: 0;

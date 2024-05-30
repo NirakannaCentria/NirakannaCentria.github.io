@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: url('../images/sea-background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #007BFF;
+    background-color: rgba(0, 123, 255, 0.8);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -23,7 +24,7 @@ main {
     padding: 20px;
     max-width: 1000px;
     margin: 20px auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -35,7 +36,7 @@ main {
 }
 
 .box {
-    background-color: #e0f7fa;
+    background-color: rgba(224, 247, 250, 0.9);
     padding: 20px;
     border-radius: 8px;
     flex: 1;
@@ -43,11 +44,11 @@ main {
 }
 
 .welcome-box {
-    background-color: #cce7ff;
+    background-color: rgba(204, 231, 255, 0.9);
 }
 
 .intro-box {
-    background-color: #b3e5fc;
+    background-color: rgba(179, 229, 252, 0.9);
 }
 
 h1, h2 {

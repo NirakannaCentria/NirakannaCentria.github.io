@@ -51,6 +51,9 @@ main {
     background-color: rgba(179, 229, 252, 0.9);
 }
 
-h1, h2 {
+h1{
     color: #ffffff;
+}
+h2{
+    color: #5025eb;
 }

@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image:url(stonesonthebeach.jpeg);
-    background-size: cover;
+    background:url(stonesonthebeach.jpeg);
     color: #333;
     margin: 0;
     padding: 0;
@@ -59,4 +58,19 @@ h1{
 }
 h2{
     color: #5025eb;
+}
+.about-box {
+    background-color: rgba(255, 239, 213, 0.9); /* Light orange */
+}
+
+.burnout-box {
+    background-color: rgba(255, 192, 203, 0.9); /* Light pink */
+}
+
+.toxic-box {
+    background-color: rgba(255, 222, 173, 0.9); /* Navajo white */
+}
+
+.recovery-box {
+    background-color: rgba(173, 216, 230, 0.9); /* Light blue */
 }

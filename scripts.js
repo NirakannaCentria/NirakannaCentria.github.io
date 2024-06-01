@@ -10,11 +10,13 @@ function toggleContent(section) {
         preview.style.display = '-webkit-box';
         moreInfo.style.display = 'none';
         button.textContent = 'Read More';
+        box.style.height = '200px'; // Set back to fixed height
     } else {
         // Expand the box
         box.classList.add('expanded');
         preview.style.display = 'none';
         moreInfo.style.display = 'block';
         button.textContent = 'Show Less';
+        box.style.height = 'auto'; // Allow the box to expand
     }
 }

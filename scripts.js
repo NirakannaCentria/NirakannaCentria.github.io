@@ -1,27 +1,24 @@
 function showMore(section) {
-    let moreInfo;
-    switch (section) {
-        case 'hello':
-            moreInfo = "I am a passionate developer with a love for learning new technologies and sharing my knowledge.";
-            break;
-        case 'whoami':
-            moreInfo = "Burnout often occurs due to prolonged stress and overwork. It's important to recognize the signs early.";
-            break;
-        case 'aboutme':
-            moreInfo = "Toxic work culture can include poor management, lack of support, and unhealthy competition.";
-            break;
-        case 'burnoutme':
-            moreInfo = "Toxic work culture can include poor management, lack of support, and unhealthy competition.";
-            break;
-        case 'toxicone':
-            moreInfo = "Recovery involves rest, setting boundaries, and seeking support from friends and professionals.";
-            break;
-        case 'recovery':
-            moreInfo = "Recovery involves rest, setting boundaries, and seeking support from friends and professionals.";
-            break;
-        default:
-            moreInfo = "";
+    let moreInfo = document.getElementById(section + '-more');
+    moreInfo.style.display = 'block';
+    moreInfo.previousElementSibling.style.display = 'none'; // Hide preview text
+    moreInfo.nextElementSibling.style.display = 'none'; // Hide the "Read More" button
+}
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName('close')[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = 'none';
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
     }
-    document.getElementById(section + '-more').innerHTML = moreInfo;
-    document.getElementById(section + '-more').style.display = 'block';
 }

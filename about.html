@@ -19,9 +19,15 @@
     </header>
     <main>
         <div class="container">
-            <div class="box about-box">
+            <div class="box about-box" id="about-box">
                 <h2>About Me</h2>
-                <p>My name is Anna, and I am from Finland. I have lived here my whole life. I am 39 years old, married,
+                <p class="text-preview">My name is Anna, and I am from Finland. I have lived here my whole life. I am 39
+                    years old, married,
+                    and have two daughters.
+                    Right now, I am working as a System developer for a local company, and I am more and more starting
+                    to transition into working with IT and mainly ERP systems which is my main interest.</p>
+                <p class="more-info">My name is Anna, and I am from Finland. I have lived here my whole life. I am 39
+                    years old, married,
                     and have two daughters.
                     Right now, I am working as a System developer for a local company, and I am more and more starting
                     to transition into working with IT and mainly ERP systems which is my main interest.</p>
@@ -37,8 +43,7 @@
                 <p> From the outside, everything looked perfect. The perfect family in their perfect home, with their
                     perfect jobs and perfect hobbies.
                 </p>
-                <button onclick="showMore('aboutme')">Read More</button>
-                <div id="about-me" class="more-info"></div>
+                <button onclick="toggleContent('about-box')">Read More</button>
             </div>
             <div class="box burnout-box">
                 <h2>The Way to Burnout</h2>
@@ -114,7 +119,7 @@
                 <p>Recovery from a burnout is not like recovering from an illness or injury. I have come to realize it
                     is about re-inventing yourself and becoming who you are supposed to be. The people who have
                     benefitted from you not standing up for yourself are going to protest you for you finally doing so.
-                    It is important to find allies that will support you in this process. 
+                    It is important to find allies that will support you in this process.
                 </p>
                 <button onclick="showMore('recovery')">Read More</button>
                 <div id="recovery-more" class="more-info"></div>

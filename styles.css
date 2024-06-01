@@ -43,6 +43,10 @@ main {
     flex: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     min-width: 200px;
+    max-width: 30%; /* Ensure all boxes have the same maximum width */
+    height: 200px; /* Fixed height to ensure equal size initially */
+    overflow: hidden;
+    position: relative;
 }
 
 .welcome-box {
